@@ -1,0 +1,15 @@
+.outros-produtos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    background-color: var(--laranja);
+}
+.outros__titulo{
+    color: var(--branco);
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-bottom: 2rem;
+}
