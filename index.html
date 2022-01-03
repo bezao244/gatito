@@ -47,9 +47,9 @@
         <section class="outros-produtos">
             <h2 class="outros__titulo">nossos outros produtos</h2>
             <article class="carrosel">
-                <button class="carrosel__botao anterior" aria-label="Voltar"> </button>
-                <button class="carrosel__botao proximo" aria-label="Proximo"> </button>
-                <ul class="carrosel__lista">
+                <button class="carrosel__botao anterior" aria-label="Voltar" data-anterior> </button>
+                <button class="carrosel__botao proximo" aria-label="Proximo" data-proximo> </button>
+                <ul class="carrosel__lista" data-lista>
                     <a href="#" class="carrosel__produto">
                          <li class="carrosel__imagem-container">
                              <img src="assets/img/produto1.png" class="carrosel__imagem">
@@ -76,12 +76,12 @@
                         </li>
                    </a>
                 </ul>
-                <div class="carrosel__indicadores">
-                    <button class="botao__indicador"></button>
-                    <button class="botao__indicador"></button>
-                    <button class="botao__indicador"></button>
-                    <button class="botao__indicador"></button>
-                    <button class="botao__indicador"></button>
+                <div class="carrosel__indicadores" data-navegacao>
+                    <button class="botao__indicador" data-indicador="0"></button>
+                    <button class="botao__indicador" data-indicador="1"></button>
+                    <button class="botao__indicador" data-indicador="2"></button>
+                    <button class="botao__indicador" data-indicador="3"></button>
+                    <button class="botao__indicador" data-indicador="4"></button>
                 </div>
             </article>
         </section>
