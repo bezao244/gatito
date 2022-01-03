@@ -35,6 +35,7 @@
 .carrosel__lista{
     position: relative;
     height: 100%;
+    transition: transform .25s;
 }
 .carrosel__produto{
     position: absolute;
@@ -68,4 +69,10 @@
 }
 .botao__indicador-ativo{
     background-color: var(--laranja);
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: auto;
 }

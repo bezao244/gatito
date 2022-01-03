@@ -13,7 +13,6 @@
 }
 .produto__descricao{
     width: 60%;
-    padding-top: 3rem;
     box-sizing: border-box;
     color: var(--cinza);
 }
@@ -21,8 +20,8 @@
     color: var(--rosa-claro);
     font-weight: 800;
     letter-spacing: 0.5rem;
-    line-height: 9rem;
-    font-size: 11.5rem;
+    line-height: 8rem;
+    font-size: 5.5rem;
     text-transform: uppercase;
 }
 .produto__divisao{
@@ -33,13 +32,13 @@
     font-size: 1.375rem;
     font-weight: 800;
     letter-spacing: 0.125rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: .5rem;
 }
 .produto__nome{
     font-size: 1.375rem;
     font-weight: 800;
     letter-spacing: 0.125rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: .5rem;
     width: 31.875rem;
 }
 .produto__texto{
